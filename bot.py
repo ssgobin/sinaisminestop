@@ -144,7 +144,7 @@ print(f""" x
 """)
 print(" ")
 print(" ")
-chat_id = "-2054052498"
+chat_id = "-1002054052498"
 token = "6870044127:AAHANbwfEubpYAwCgshJD61BVot8eiDfdFA"
 system("cls")
 bot = Bot_mines_auto_dev(chat_id, token)
