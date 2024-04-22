@@ -144,8 +144,8 @@ class Bot_mines_auto_dev():
     """)
     print(" ")
     print(" ")
-    chat_id = "-1001636512354"
-    token = "6073921642:AAGrmA2YZS8NWVjWFmFvFGtalsb6kyV2LXE"
+    chat_id = "-2054052498"
+    token = "6870044127:AAHANbwfEubpYAwCgshJD61BVot8eiDfdFA"
     system("cls")
     bot = Bot_mines_auto_dev(chat_id, token)
     bot.START_BOT()
