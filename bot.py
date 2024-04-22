@@ -106,8 +106,8 @@ class Bot_mines_auto_dev():
     
     def DELETE_MESSAGE(self, m_id):
         if self.message_delete1:
-        self.bot.delete_message(chat_id=self.chat_id, message_id=m_id)
-        self.message_delete1 = False
+            self.bot.delete_message(chat_id=self.chat_id, message_id=m_id)
+            self.message_delete1 = False
     
     
     ##################################### STARTANDO O BOT ##################################################
