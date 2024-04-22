@@ -7,7 +7,7 @@ from time import sleep
 from os import system
 
 
-class Bot_mines_auto_dev:
+class Bot_mines_auto_dev():
     def __init__(self, chat_id, token):
         self.layout()
         self.chat_id = chat_id
@@ -130,22 +130,22 @@ class Bot_mines_auto_dev:
             self.DELETE_MESSAGE(message_id_alerta)
     
     ##################################################################################################################
-    re="\033[1;31m"
-    gr="\033[1;32m"
-    cy="\033[1;36m"
-    print(f""" x
-    {re} T + + {cy} x x ,_________, x
-    {re} |___________ {cy} _ _ . _ _ ___ _x_ |_|__|__|_|
-    {re} | | + | | ´ {cy} |\ /| | |\ | / __//_ \ \ | / /
-    {re} |___|___| | {cy} | \/ | | | \| \___x__/ \ \|/ / x
-    {re} + ____ __,___,____ +{cy} ___ ___ _ _ \ | /
-    {re} /_| | | + | | | {cy} |x \/ __/ \ x/ x \,/
-    {re} / | |__| | +|__| {cy} |__/\___x \/ x {gr}
-    """)
-    print(" ")
-    print(" ")
-    chat_id = "-2054052498"
-    token = "6870044127:AAHANbwfEubpYAwCgshJD61BVot8eiDfdFA"
-    system("cls")
-    bot = Bot_mines_auto_dev(chat_id, token)
-    bot.START_BOT()
+re="\033[1;31m"
+gr="\033[1;32m"
+cy="\033[1;36m"
+print(f""" x
+{re} T + + {cy} x x ,_________, x
+{re} |___________ {cy} _ _ . _ _ ___ _x_ |_|__|__|_|
+{re} | | + | | ´ {cy} |\ /| | |\ | / __//_ \ \ | / /
+{re} |___|___| | {cy} | \/ | | | \| \___x__/ \ \|/ / x
+{re} + ____ __,___,____ +{cy} ___ ___ _ _ \ | /
+{re} /_| | | + | | | {cy} |x \/ __/ \ x/ x \,/
+{re} / | |__| | +|__| {cy} |__/\___x \/ x {gr}
+""")
+print(" ")
+print(" ")
+chat_id = "-2054052498"
+token = "6870044127:AAHANbwfEubpYAwCgshJD61BVot8eiDfdFA"
+system("cls")
+bot = Bot_mines_auto_dev(chat_id, token)
+bot.START_BOT()
