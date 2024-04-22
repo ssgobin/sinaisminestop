@@ -7,7 +7,7 @@ from time import sleep
 from os import system
 
 
-class Bot_mines_auto_dev():
+class Bot_mines_auto_dev:
     def __init__(self, chat_id, token):
         self.layout()
         self.chat_id = chat_id
