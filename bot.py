@@ -60,22 +60,22 @@ class Bot_mines_auto_dev():
     
     def SINAL_STIKER(self):
         sinal = self.bot.send_message(self.chat_id, f'''⭐ɴᴏᴠᴏ ꜱɪɴᴀʟ⭐
-        ⭐ᴍɪɴᴇꜱ ʟᴇɢᴇɴᴅᴀʀʏ⭐''')
+    ⭐ᴍɪɴᴇꜱ ʟᴇɢᴇɴᴅᴀʀʏ⭐''')
         self.message_delete1 = True
         os.system("cls")
         return sinal
     
     def SINAL(self):
         sinal = self.bot.send_message(self.chat_id, f'''💎ꜱɪɴᴀɪꜱ ᴍɪɴᴇꜱ ʟᴇɢᴇɴᴅᴀʀʏ💎
-        💣ᴍɪɴᴀꜱ: 3
-        🔄ᴄʜᴀɴᴄᴇꜱ: 2
+    💣ᴍɪɴᴀꜱ: 3
+    🔄ᴄʜᴀɴᴄᴇꜱ: 2
         {random.choice(self.sample[0])}{random.choice(self.sample[1])}{random.choice(self.sample[2])}{random.choice(self.sample[3])}{random.choice(self.sample[4])}
         {random.choice(self.sample[5])}{random.choice(self.sample[6])}{random.choice(self.sample[7])}{random.choice(self.sample[8])}{random.choice(self.sample[9])}
         {random.choice(self.sample[10])}{random.choice(self.sample[11])}{random.choice(self.sample[12])}{random.choice(self.sample[13])}{random.choice(self.sample[14])}
         {random.choice(self.sample[15])}{random.choice(self.sample[16])}{random.choice(self.sample[17])}{random.choice(self.sample[18])}{random.choice(self.sample[19])}
         {random.choice(self.sample[20])}{random.choice(self.sample[21])}{random.choice(self.sample[22])}{random.choice(self.sample[23])}{random.choice(self.sample[24])}
-        ⏱ ᴠᴀʟɪᴅᴀᴅᴇ : {self.GET_HORA_ATUAL().add(minutes=4).format("HH:mm")}
-        ⚠️ ᴏꜱ ꜱɪɴᴀɪꜱ ꜰᴜɴᴄɪᴏɴᴀᴍ ᴀᴘᴇɴᴀꜱ ᴄᴏᴍ ᴏ ʟɪɴᴋ ᴀʙᴀɪxᴏ''', reply_markup=self.BOTAO())
+    ⏱ ᴠᴀʟɪᴅᴀᴅᴇ : {self.GET_HORA_ATUAL().add(minutes=4).format("HH:mm")}
+    ⚠️ ᴏꜱ ꜱɪɴᴀɪꜱ ꜰᴜɴᴄɪᴏɴᴀᴍ ᴀᴘᴇɴᴀꜱ ᴄᴏᴍ ᴏ ʟɪɴᴋ ᴀʙᴀɪxᴏ''', reply_markup=self.BOTAO())
         self.message_delete1 = True
         return sinal
     
@@ -88,8 +88,8 @@ class Bot_mines_auto_dev():
     def EDITAR_MESSAGE(self):
         os.system('cls' if os.name == 'nt' else 'clear')
         message = self.bot.send_message(self.chat_id, f'''⭐ꜱɪɴᴀʟ ꜰɪɴᴀʟɪᴢᴀᴅᴏ⭐
-        ✅ɢʀᴇᴇɴ✅
-        ⏱ꜰɪɴᴀʟɪᴢᴀᴅᴏ: {self.GET_HORA_ATUAL().format("HH:mm")}''')
+    ✅ɢʀᴇᴇɴ✅
+    ⏱ꜰɪɴᴀʟɪᴢᴀᴅᴏ: {self.GET_HORA_ATUAL().format("HH:mm")}''')
     
         self.message_delete1 = False
         return message
@@ -99,8 +99,8 @@ class Bot_mines_auto_dev():
         #⏱𝙁𝙞𝙣𝙖𝙡𝙞𝙯𝙖𝙙𝙤 𝙖́𝙨: {self.GET_HORA_ATUAL().format("HH:mm:ss")}""", chat_id=self.chat_id, message_id=m_id)
     def ALERT_SINAL(self):
         message = self.bot.send_message(self.chat_id, f'''⭐ᴘᴇɢᴀɴᴅᴏ ɴᴏᴠᴏ ᴘᴀᴅʀÃᴏ⭐
-        ⭐ᴍɪɴᴇꜱ ʟᴇɢᴇɴᴅᴀʀʏ⭐
-        ⏱ᴘʀᴇᴘᴀʀᴇᴍ ꜱᴇᴜꜱ ᴅᴇᴘÓꜱɪᴛᴏꜱ''', reply_markup=self.BOTAO())
+    ⭐ᴍɪɴᴇꜱ ʟᴇɢᴇɴᴅᴀʀʏ⭐
+    ⏱ᴘʀᴇᴘᴀʀᴇᴍ ꜱᴇᴜꜱ ᴅᴇᴘÓꜱɪᴛᴏꜱ''', reply_markup=self.BOTAO())
         self.message_delete1 = True
         return message
     
